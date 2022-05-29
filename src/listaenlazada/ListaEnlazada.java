@@ -10,6 +10,7 @@ public class ListaEnlazada {
         int eleccion;
         
         while(!salir){ 
+           System.out.println("");
            System.out.println("1. Agregar nombre a la lista"); 
            System.out.println("2. Mostrar nombres");
            System.out.println("3. Buscar nombre");

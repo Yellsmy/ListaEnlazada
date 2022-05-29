@@ -18,7 +18,7 @@ public class Lista {
     public void mostrarNombres(){
         Nodo aux = inicio;
         while(aux!= null){
-            System.out.println("[" + aux.dato + "]");
+            System.out.print(aux.dato + ",");
             aux = aux.siguiente;
         }
     }
